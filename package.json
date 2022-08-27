@@ -1,0 +1,26 @@
+{
+    "name": "electron-vite-vue3-ts",
+    "version": "0.1.0",
+    "description": "A Electron application create by Vite",
+    "main": "./dist/main/main.js",
+    "repository": "https://github.com/chrisxvin/electron-vite-vue3-ts.git",
+    "author": "Chris Liu <xvin2012@gmail.com>",
+    "license": "MIT",
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "src/*"
+        ]
+    },
+    "scripts": {
+        "dev": "node ./scripts/dev-runner.mjs",
+        "build": "node ./scripts/build.mjs"
+    },
+    "devDependencies": {
+        "chalk": "^5.0.1",
+        "electron": "^20.1.0",
+        "electron-builder": "^23.3.3",
+        "listr": "^0.14.3",
+        "vite": "^3.0.9"
+    }
+}
