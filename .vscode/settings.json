@@ -1,12 +1,11 @@
 {
-    // 使用4个空格作为tab,并将对齐基准线设置为4个字符test
     "editor.tabSize": 4,
     "files.eol": "\n",
     "files.encoding": "utf8",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
+    "editor.detectIndentation": false,
     "editor.formatOnSave": true,
-    // 保存文件时按照eslint配置自动处理vue/js/jsx/ts/json文件格式
     "editor.codeActionsOnSave": {
         "source.fixAll": true,
         "source.fixAll.eslint": true
@@ -22,7 +21,6 @@
     "javascript.referencesCodeLens.enabled": true,
     "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
     "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
-    // 打开对vue的lint,并自动fix
     "eslint.validate": [
         "vue",
         "html",
@@ -47,11 +45,10 @@
         "editor.defaultFormatter": "Vue.volar"
     },
     "prettier.arrowParens": "avoid",
-    "prettier.printWidth": 160,
-    "prettier.tabWidth": 4,
-    "prettier.singleQuote": false,
-    "prettier.trailingComma": "es5",
-    "editor.detectIndentation": false,
-    "volar.autoCompleteRefs": true,
     "prettier.bracketSameLine": true,
+    "prettier.printWidth": 160,
+    "prettier.singleQuote": false,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "volar.autoCompleteRefs": true,
 }

@@ -22,5 +22,11 @@
         "electron-builder": "^23.3.3",
         "listr": "^0.14.3",
         "vite": "^3.0.9"
+    },
+    "peerDevDependencies": {
+        "rollup": "2.77.0"
+    },
+    "resolutions": {
+        "**/rollup": "2.77.0"
     }
 }
