@@ -1,0 +1,29 @@
+{
+    "name": "temp",
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "prebuild": "vue-tsc --noEmit",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.35.1",
+        "@typescript-eslint/parser": "^5.35.1",
+        "@vitejs/plugin-vue": "^3.0.3",
+        "@vue/compiler-sfc": "3.2.37",
+        "@vue/eslint-config-typescript": "^11.0.0",
+        "dotenv": "^16.0.1",
+        "eslint": "^8.23.0",
+        "eslint-plugin-vue": "^9.4.0",
+        "tslib": "^2.4.0",
+        "typescript": "^4.8.2",
+        "vite": "^3.0.9",
+        "vue-tsc": "^0.40.1"
+    },
+    "sideEffects": false
+}
