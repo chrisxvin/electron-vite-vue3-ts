@@ -67,6 +67,11 @@ function startElectron(RENDERER_URL) {
         },
     });
 
+    // Redirect Electron's stdout to node's stdout,
+    // so you can use console.log() in Main Process,
+    // and see messages on terminal.
+    electronProcess.stdout.pipe(process.stdout);
+
     electronProcess.on("close", () => {
         if (!manualRestart) process.exit();
     });
